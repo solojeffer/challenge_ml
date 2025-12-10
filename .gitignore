@@ -1,0 +1,19 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Archivos grandes / modelos si decides no subirlos
+*.npy
+*.pkl
+
+# Checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Caches de Python
+__pycache__/
+*.pyc
+
+# Configuración local
+.DS_Store
+.env
