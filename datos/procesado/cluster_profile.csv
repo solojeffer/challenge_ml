@@ -1,0 +1,5 @@
+num_items,categorias_unicas,precio_log_medio,stock_log_medio,pct_descuento_prom,pct_con_descuento,pct_new,pct_used,pct_ne,pct_refurbished,DS,FLEX,FBM,Otro,XD,entropia_categorias,pct_categoria_moda,seller_rep_score
+1.54,1.0,6.61,2.22,0.0,0.21,0.78,0.22,0.0,0.01,0.13,0.0,0.14,0.06,0.67,0.0,1.0,3.98
+4.17,2.62,6.18,2.74,0.0,0.38,0.93,0.07,0.0,0.0,0.14,0.0,0.24,0.03,0.59,0.84,0.54,5.9
+15.54,8.55,6.19,3.08,0.0,0.44,0.99,0.01,0.0,0.0,0.32,0.0,0.17,0.05,0.46,1.92,0.29,6.7
+18.49,2.48,6.42,2.16,0.0,0.26,0.92,0.08,0.0,0.0,0.04,0.0,0.16,0.04,0.76,0.46,0.83,6.9
