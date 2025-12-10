@@ -12,22 +12,25 @@ Este repositorio contiene la solución completa del desafío técnico, incluyend
 - Clasificador capaz de asignar sellers nuevos a un cluster
 - Pruebas con sellers nunca vistos
 
-📁 **Estructura del repositorio**
+## 📁 Estructura del repositorio
+
 challenge_meli/
-├── .venv/
+├── .venv/                     # Entorno virtual (opcional, no subir a GitHub)
+│
 ├── datos/
 │   ├── crudo/
-│   │   └── data_por_producto.csv       # Datos iniciales para la pruebba
+│   │   └── data_por_producto.csv      # Datos iniciales de la prueba
+│   │
 │   └── procesado/
-│       ├── cluster_profile.csv         # Perfil de cada cluster según las variables analizadas
-│       ├── data_seller.csv             # Base transformada a nivel seller
-│       └── sellers_clustered.csv       # Base a nivel seller limpia y con su cluster correspondiente
+│       ├── cluster_profile.csv        # Perfil de cada cluster
+│       ├── data_seller.csv            # Base transformada a nivel seller
+│       └── sellers_clustered.csv      # Sellers limpios + cluster asignado
 │
 ├── modelos/
-│   ├── embeddings_train.npy            # Embeddings con los que se entrenó el modelo de clasificación
-│   ├── kmeans_sellers_k4.pkl           #Modelo Kmeans usado para el aprendizaje no supervisado
-│   ├── modelo_logreg_embeddings.pkl    #Modelo de clasifiación semántica
-│   └── scaler_robust.pkl               #Scaler usado para el modelo Kmeans
+│   ├── embeddings_train.npy           # Embeddings usados en clasificador
+│   ├── kmeans_sellers_k4.pkl          # Modelo KMeans final
+│   ├── modelo_logreg_embeddings.pkl   # Clasificador semántico
+│   └── scaler_robust.pkl              # Scaler para clustering
 │
 ├── notebooks/
 │   ├── 01_exploracion_datos.ipynb
@@ -36,10 +39,11 @@ challenge_meli/
 │   └── 04_modulo_genai.ipynb
 │
 ├── presentacion/
-│   ├── Presentación
+│   └── Presentación.pdf               # Deck resumen del challenge
 │
 ├── README.md
 └── requirements.txt
+
 
 
 # Cómo ejecutar este proyecto
