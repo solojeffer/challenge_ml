@@ -13,10 +13,8 @@ Este repositorio contiene la solución completa del desafío técnico, incluyend
 - Pruebas con sellers nunca vistos
 
 ## 📁 Estructura del repositorio
-
+```bash
 challenge_meli/
-├── .venv/                     # Entorno virtual (opcional, no subir a GitHub)
-│
 ├── datos/
 │   ├── crudo/
 │   │   └── data_por_producto.csv      # Datos iniciales de la prueba
@@ -43,7 +41,7 @@ challenge_meli/
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 
 # Cómo ejecutar este proyecto
