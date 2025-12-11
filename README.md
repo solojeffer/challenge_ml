@@ -37,7 +37,7 @@ challenge_meli/
 │   └── 04_modulo_genai.ipynb
 │
 ├── presentacion/
-│   └── Presentación.pdf               # Deck resumen del challenge
+│   └── MeLi_presentacion.pdf               # Deck resumen del challenge
 │
 ├── README.md
 └── requirements.txt
